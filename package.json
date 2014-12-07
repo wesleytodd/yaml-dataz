@@ -1,0 +1,28 @@
+{
+  "name": "yaml-dataz",
+  "version": "0.0.1",
+  "description": "Load a yaml file into a Dataz instance",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wesleytodd/yaml-dataz.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "yaml",
+    "data",
+    "getter",
+    "setter"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "dependencies": {
+    "dataz": "^0.0.1",
+    "js-yaml": "^3.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
